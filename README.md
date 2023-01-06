@@ -6,7 +6,8 @@ This project is a homework assignment from CSCI 121 taught by Mark Hopkins.
 - `config.py`: Contains information about how to configure a particular game of Breakout.
 - `graphics.py`: Contains code for displaying the graphics.
 
-There are three versions  of the game that can be run from a Terminal:
+## Compilation instructions
+There are three versions of gamefiles that can be run from a Terminal:
 - `simple.py`: A simple version of Breakout, useful for testing code.
 - `classic.py`: The classic arcade version of Breakout.
 - `bunsen.py`: This is the version of Breakout with Dr. Bunsen Honeydew as the target.
@@ -18,7 +19,7 @@ Make sure the file that contains your desired version of game includes `from bre
 
 ## Extensions
 
-The code for the extensions are in `breakout_modified.py`. Make sure to change to `from breakout_modified import BreakoutGame` to play with this new set of rules! 
+The code for the extensions are in `breakout_modified.py`. Make sure to change the header of gamefile to `from breakout_modified import BreakoutGame` to play with this new set of rules! 
 
 The goal of the game is the gain as many points as possible. 
 
